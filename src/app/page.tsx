@@ -1,4 +1,4 @@
-import { GrandFather } from "@/components/parents/grand-father";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -20,9 +20,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-green-800">Componentes</h2>
         <p className="text-lg mb-2">
           Há sentenas se não milhares de formas de como se explicar a lógica por trás de um componente,
-          mas digamos que você está no inverno com seu fogão a lenha, e um amigo chega e diz: "-O meu chapa tenho umas toras aqui pra você 🤨",
+          mas digamos que você está no inverno com seu fogão a lenha, e um amigo chega e diz: &quot;-O meu chapa tenho umas toras aqui pra você 🤨&quot;,
           mas ai você pensa como, como? Como que eu vou fazer isso? Uma tora não irá caber no meu fogão... Pois bem meu pequeno programador o que você faria ?
-          Se pensarmos pelo obvio, seria cortar essas toras em pedaços menores para que possam entrar na entrada do fogão. a quem diga que poderia-se aumentar o tamanho do fogão... "digo nada hein".
+          Se pensarmos pelo obvio, seria cortar essas toras em pedaços menores para que possam entrar na entrada do fogão. a quem diga que poderia-se aumentar o tamanho do fogão... &quot;digo nada hein&quot;.
         </p>
         <p className="text-lg mb-2">
           Da forma como foi apresentada antes, quando temos algo muito grande e complexo ou que de certa forma causa causa confusão ou estranhesa, para quem le.
@@ -46,7 +46,7 @@ export default function Home() {
       <section className="mt-10 bg-sky-100 p-4 rounded-3xl">
         <h2 className="text-3xl font-bold mb-6 text-sky-800">Props</h2>
         <p className="text-lg mb-2">
-          Agora que sabemos, como a lógica de um componente funciona, podemos ir para o proximo passo, "espero realmente que não seja para se atirar da ponte 😊".
+          Agora que sabemos, como a lógica de um componente funciona, podemos ir para o proximo passo, &quot;espero realmente que não seja para se atirar da ponte 😊&quot;.
           As propriedades, para muitos um pesadelo e para outros também, mas prometo depois disso você vai dominar as props like a ninja. As props nada mais são que informações sobre o componente,
           vamos traduzir isso pra uma linguagem mais entendivel.
         </p>
